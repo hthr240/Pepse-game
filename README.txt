@@ -1,39 +1,37 @@
-# Markov-chain-tweets
+Pepse 
+A Java-based 2D endless-runner game with a procedurally generated world, dynamic lighting, and interactive terrain.
 
-A C-based application that generates tweets using Markov Chain algorithms.
+Features-
+Avatar controls: Move, jump, fly (with energy system)
 
-## Overview
+Procedural world: Terrain, trees, and leaf regrowth
 
-This project demonstrates the application of Markov Chains for text generation, specifically tailored to simulate tweet-like messages. Developed in C, it showcases proficiency in data structures, algorithms, and file handling.
+Dynamic lighting: Sun changes color with time
 
-## Features
+Infinite world: Three-screen system scrolls endlessly
 
-- **Markov Chain Implementation**: Generates text sequences based on probabilistic models.
-- **Linked List Data Structure**: Efficient management of state transitions using custom linked lists.
-- **File Handling**: Processes input text files to build the Markov model.
+Sound effects: Random avatar sounds on key press
 
-## Project Structure
+Architecture-
+PepseManager: Core game logic
 
-- **linked_list.c / linked_list.h**: Implementation of a generic linked list data structure.
-- **markov_chain.c / markov_chain.h**: Core logic for the Markov Chain text generation.
-- **tweets_generator.c**: Main program that ties everything together and generates tweets.
-- **justdoit_tweets.txt**: Sample input file containing seed text for the Markov Chain.
-- **makefile**: Build instructions for the project.
+ScreenRenderManager: Loads/unloads world sections
 
-## Skills Demonstrated
+Tree system: Modular trunk and leaf generation
 
-- **C Programming**: Advanced use of C for algorithm implementation and system-level programming.
-- **Data Structures**: Creation and manipulation of custom linked lists.
-- **Algorithm Development**: Design and implementation of Markov Chain-based text generation.
-- **File I/O**: Reading from and writing to files for data processing.
+Avatar state system: Manages movement behavior
 
-## Future Enhancements
+How to Run-
+Clone the repo
 
-- **Dynamic Input Handling**: Allow users to specify different input text files at runtime.
-- **Parameter Tuning**: Introduce configurable parameters for the Markov Chain, such as the order of the chain.
-- **User Interface**: Develop a simple GUI or command-line options for better user interaction.
+Import src/ in your Java IDE
 
-## Contact
+Run the main class
 
-For any questions or suggestions, feel free to reach out via the repository's issue tracker.
+Learning Highlights-
+Procedural generation
+
+Efficient screen/scene management
+
+State-driven object behavior
 
